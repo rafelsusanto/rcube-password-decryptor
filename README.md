@@ -1,6 +1,7 @@
 # rcube-password-decryptor
 
-**Decrypt IMAP passwords from Roundcube session data with the server's DES key.**
+**Decrypt IMAP passwords from Roundcube session data with the server's DES key.**  
+
 
 
 ## What is this?
@@ -16,6 +17,7 @@ It is useful for:
 
 ---
 
+  
 
 ## ⚠️ Security Warning
 
@@ -25,6 +27,7 @@ It is useful for:
 > Use responsibly and with proper legal permission.
 
 ---
+  
 
 ## How does it work?
 
@@ -40,6 +43,7 @@ This tool:
 - **Removes padding** to recover the plaintext password.
 
 ---
+  
 
 ## Requirements
 
