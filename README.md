@@ -1,6 +1,7 @@
-# roundcube-session-password-decryptor
+# rcube-password-decryptor
 
 **Decrypt IMAP passwords from Roundcube session data with the server's DES key.**
+
 
 ## What is this?
 
@@ -14,6 +15,7 @@ It is useful for:
 - Password recovery/migration in Roundcube environments
 
 ---
+
 
 ## ⚠️ Security Warning
 
