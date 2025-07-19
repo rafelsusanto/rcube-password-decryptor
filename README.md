@@ -16,7 +16,7 @@ It is useful for:
 - Password recovery/migration in Roundcube environments
 
 ---
-
+<br>
   
 
 ## ⚠️ Security Warning
@@ -27,7 +27,7 @@ It is useful for:
 > Use responsibly and with proper legal permission.
 
 ---
-  
+  <br>
 
 ## How does it work?
 
@@ -43,7 +43,7 @@ This tool:
 - **Removes padding** to recover the plaintext password.
 
 ---
-  
+  <br>
 
 ## Requirements
 
@@ -54,3 +54,11 @@ Install pycryptodome via pip if you don't have it:
 
 ```bash
 pip install pycryptodome
+
+---
+<br>
+## How to use?
+```bash 
+python3 rcube-decrypt.py 
+Paste base64 encrypted password (from session): <base64 password from session>
+Paste 24-byte des_key (from config.inc.php): <des_key from config.inc.php>
