@@ -68,17 +68,18 @@ Paste base64 encrypted password (from session): <base64 password from session>
 Paste 24-byte des_key (from config.inc.php): <des_key from config.inc.php>
 ```
 
-Example from one of HackTheBox lab:
-cat /var/www/html/roundcube/config/config.inc.php
+Example from one of HackTheBox lab:  
+
+cat /var/www/html/roundcube/config/config.inc.php  
 <img width="601" height="91" alt="image" src="https://github.com/user-attachments/assets/8aee1878-c80c-4968-8698-228957695230" />
 
-grab session from database
+grab session from database  
 <img width="1361" height="767" alt="image" src="https://github.com/user-attachments/assets/cef6251f-42c2-4ed0-863e-c627654048d1" />
 
-decode session
+decode session  
 <img width="1688" height="673" alt="image" src="https://github.com/user-attachments/assets/99cdf8e5-f2e2-4713-8a4f-f3156aed0267" />
 
-run rcube-decrypt.py
+run rcube-decrypt.py  
 <img width="823" height="162" alt="image" src="https://github.com/user-attachments/assets/38b2027d-31b0-47ee-b061-4a55c587eb64" />
 
 
