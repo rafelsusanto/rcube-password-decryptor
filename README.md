@@ -54,6 +54,7 @@ Install pycryptodome via pip if you don't have it:
 
 ```bash
 pip install pycryptodome
+```
 
 ---
 <br>
@@ -61,4 +62,4 @@ pip install pycryptodome
 ```bash 
 python3 rcube-decrypt.py 
 Paste base64 encrypted password (from session): <base64 password from session>
-Paste 24-byte des_key (from config.inc.php): <des_key from config.inc.php>
+Paste 24-byte des_key (from config.inc.php): <des_key from config.inc.php>```
